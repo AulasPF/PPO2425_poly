@@ -11,7 +11,7 @@ private:
 
 public:
     Circle(const Point& center, double radius);
-    string info() const;
+    string info() const override;
 };
 
 #endif // CIRCLE_H

@@ -13,7 +13,7 @@ protected:
 public:
     Figure(const Point& center);
 
-    virtual string info() const;
+    virtual string info() const = 0;
 };
 
 #endif // FIGURE_H

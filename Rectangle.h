@@ -12,7 +12,7 @@ private:
 
 public:
     Rectangle(const Point& center, double width, double height);
-    // string info() const;
+    // string info() const override;
 };
 
 #endif // RECTANGLE_H

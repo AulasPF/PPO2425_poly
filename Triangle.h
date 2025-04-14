@@ -12,7 +12,7 @@ private:
 
 public:
     Triangle(const Point& center, double base, double height);
-    string info() const;
+    string info() const override;
 };
 
 #endif // TRIANGLE_H
