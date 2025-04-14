@@ -3,6 +3,8 @@
 
 #include "Figure.h"
 
+using namespace std;
+
 class Rectangle : public Figure {
 private:
     double width;
@@ -10,7 +12,7 @@ private:
 
 public:
     Rectangle(const Point& center, double width, double height);
-    std::string info() const override;
+    string info() const;
 };
 
 #endif // RECTANGLE_H

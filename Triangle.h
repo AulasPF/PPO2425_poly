@@ -3,6 +3,8 @@
 
 #include "Figure.h"
 
+using namespace std;
+
 class Triangle : public Figure {
 private:
     double base;
@@ -10,7 +12,7 @@ private:
 
 public:
     Triangle(const Point& center, double base, double height);
-    std::string info() const override;
+    string info() const;
 };
 
 #endif // TRIANGLE_H

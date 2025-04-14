@@ -3,14 +3,19 @@
 #include "Rectangle.h"
 #include "Triangle.h"
 
+using namespace std;
+
 int main() {
+    Figure f({4.0, 4.0});
     Circle c({1.0, 2.0}, 5.0);
     Rectangle r({0.0, 0.0}, 4.0, 6.0);
     Triangle t({2.0, 3.0}, 3.0, 4.0);
 
-    std::cout << c.info() << std::endl;
-    std::cout << r.info() << std::endl;
-    std::cout << t.info() << std::endl;
+
+    cout << f.info() << endl; 
+    cout << c.info() << endl;
+    cout << r.info() << endl;
+    cout << t.info() << endl;
 
     return 0;
 }

@@ -3,13 +3,15 @@
 
 #include "Figure.h"
 
+using namespace std;
+
 class Circle : public Figure {
 private:
     double radius;
 
 public:
     Circle(const Point& center, double radius);
-    std::string info() const override;
+    string info() const;
 };
 
 #endif // CIRCLE_H

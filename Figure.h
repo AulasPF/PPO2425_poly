@@ -4,15 +4,16 @@
 #include "Point.h"
 #include <string>
 
+using namespace std;
+
 class Figure {
 protected:
     Point center;
 
 public:
     Figure(const Point& center);
-    virtual ~Figure() = default;
 
-    virtual std::string info() const = 0;
+    string info() const;
 };
 
 #endif // FIGURE_H

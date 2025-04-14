@@ -4,8 +4,8 @@
 Circle::Circle(const Point& center, double radius)
     : Figure(center), radius(radius) {}
 
-std::string Circle::info() const {
-    std::ostringstream oss;
+string Circle::info() const {
+    ostringstream oss;
     oss << "Circle(center=(" << center.x << ", " << center.y << "), radius=" << radius << ")";
     return oss.str();
 }
