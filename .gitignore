@@ -1,0 +1,16 @@
+# Compilação
+*.o
+main
+
+# Ficheiros de backup do editor
+*~
+*.swp
+*.bak
+
+# Diretórios temporários
+*.dSYM/
+.vscode/
+.idea/
+
+# Make clean output
+*.d
